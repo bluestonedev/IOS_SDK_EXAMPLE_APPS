@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481DD33B1FD1743400AFE6A2 /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481DD3391FD1743400AFE6A2 /* SAPFoundation.framework */; };
+		481DD33C1FD1743400AFE6A2 /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481DD33A1FD1743400AFE6A2 /* SAPCommon.framework */; };
+		481DD33D1FD1743F00AFE6A2 /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481DD3391FD1743400AFE6A2 /* SAPFoundation.framework */; };
+		481DD33E1FD1743F00AFE6A2 /* SAPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 481DD3391FD1743400AFE6A2 /* SAPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		481DD33F1FD1743F00AFE6A2 /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481DD33A1FD1743400AFE6A2 /* SAPCommon.framework */; };
+		481DD3401FD1743F00AFE6A2 /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 481DD33A1FD1743400AFE6A2 /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C08B86C1E685021003DFB69 /* sap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C08B86B1E685021003DFB69 /* sap.png */; };
+		6C08B86E1E685165003DFB69 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08B86D1E685165003DFB69 /* StartScreenViewController.swift */; };
+		6C6086A81DE83D770082863C /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6086A71DE83D770082863C /* Authenticator.swift */; };
+		6CB05B601DE320AF008B917F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB05B5F1DE320AF008B917F /* AppDelegate.swift */; };
+		6CB05B621DE320AF008B917F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB05B611DE320AF008B917F /* ViewController.swift */; };
+		6CB05B651DE320AF008B917F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB05B631DE320AF008B917F /* Main.storyboard */; };
+		6CB05B671DE320AF008B917F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB05B661DE320AF008B917F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CB05B711DE320AF008B917F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB05B541DE320AF008B917F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB05B5B1DE320AF008B917F;
+			remoteInfo = Authentication;
+		};
+		6CB05B7C1DE320AF008B917F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB05B541DE320AF008B917F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB05B5B1DE320AF008B917F;
+			remoteInfo = Authentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E092AA2F1EBB289900695346 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				481DD3401FD1743F00AFE6A2 /* SAPCommon.framework in Embed Frameworks */,
+				481DD33E1FD1743F00AFE6A2 /* SAPFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		481DD3391FD1743400AFE6A2 /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFoundation.framework; sourceTree = "<group>"; };
+		481DD33A1FD1743400AFE6A2 /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
+		6C08B86B1E685021003DFB69 /* sap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sap.png; sourceTree = "<group>"; };
+		6C08B86D1E685165003DFB69 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		6C6086A71DE83D770082863C /* Authenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		6CB05B5C1DE320AF008B917F /* Authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB05B5F1DE320AF008B917F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CB05B611DE320AF008B917F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CB05B641DE320AF008B917F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CB05B661DE320AF008B917F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CB05B6B1DE320AF008B917F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB05B701DE320AF008B917F /* AuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB05B7B1DE320AF008B917F /* AuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB05B591DE320AF008B917F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481DD33F1FD1743F00AFE6A2 /* SAPCommon.framework in Frameworks */,
+				481DD33D1FD1743F00AFE6A2 /* SAPFoundation.framework in Frameworks */,
+				481DD33C1FD1743400AFE6A2 /* SAPCommon.framework in Frameworks */,
+				481DD33B1FD1743400AFE6A2 /* SAPFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB05B6D1DE320AF008B917F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB05B781DE320AF008B917F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		481DD3381FD1743400AFE6A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				481DD3391FD1743400AFE6A2 /* SAPFoundation.framework */,
+				481DD33A1FD1743400AFE6A2 /* SAPCommon.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C2660C01E8E415500CBD7C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C08B86B1E685021003DFB69 /* sap.png */,
+				6C08B86D1E685165003DFB69 /* StartScreenViewController.swift */,
+				6CB05B611DE320AF008B917F /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6C2660C11E8E415F00CBD7C2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6C6086A71DE83D770082863C /* Authenticator.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		6CB05B531DE320AF008B917F = {
+			isa = PBXGroup;
+			children = (
+				6CB05B5E1DE320AF008B917F /* Authentication */,
+				6CB05B5D1DE320AF008B917F /* Products */,
+				481DD3381FD1743400AFE6A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB05B5D1DE320AF008B917F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB05B5C1DE320AF008B917F /* Authentication.app */,
+				6CB05B701DE320AF008B917F /* AuthenticationTests.xctest */,
+				6CB05B7B1DE320AF008B917F /* AuthenticationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB05B5E1DE320AF008B917F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				6CB05B5F1DE320AF008B917F /* AppDelegate.swift */,
+				6CB05B661DE320AF008B917F /* Assets.xcassets */,
+				6C2660C11E8E415F00CBD7C2 /* Helper */,
+				6CB05B6B1DE320AF008B917F /* Info.plist */,
+				6CB05B631DE320AF008B917F /* Main.storyboard */,
+				6C2660C01E8E415500CBD7C2 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CB05B5B1DE320AF008B917F /* Authentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB05B841DE320AF008B917F /* Build configuration list for PBXNativeTarget "Authentication" */;
+			buildPhases = (
+				6CB05B581DE320AF008B917F /* Sources */,
+				6CB05B591DE320AF008B917F /* Frameworks */,
+				6CB05B5A1DE320AF008B917F /* Resources */,
+				E092AA2F1EBB289900695346 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Authentication;
+			productName = Authentication;
+			productReference = 6CB05B5C1DE320AF008B917F /* Authentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CB05B6F1DE320AF008B917F /* AuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB05B871DE320AF008B917F /* Build configuration list for PBXNativeTarget "AuthenticationTests" */;
+			buildPhases = (
+				6CB05B6C1DE320AF008B917F /* Sources */,
+				6CB05B6D1DE320AF008B917F /* Frameworks */,
+				6CB05B6E1DE320AF008B917F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB05B721DE320AF008B917F /* PBXTargetDependency */,
+			);
+			name = AuthenticationTests;
+			productName = AuthenticationTests;
+			productReference = 6CB05B701DE320AF008B917F /* AuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CB05B7A1DE320AF008B917F /* AuthenticationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB05B8A1DE320AF008B917F /* Build configuration list for PBXNativeTarget "AuthenticationUITests" */;
+			buildPhases = (
+				6CB05B771DE320AF008B917F /* Sources */,
+				6CB05B781DE320AF008B917F /* Frameworks */,
+				6CB05B791DE320AF008B917F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB05B7D1DE320AF008B917F /* PBXTargetDependency */,
+			);
+			name = AuthenticationUITests;
+			productName = AuthenticationUITests;
+			productReference = 6CB05B7B1DE320AF008B917F /* AuthenticationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB05B541DE320AF008B917F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					6CB05B5B1DE320AF008B917F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 75QSJ8SMAA;
+						ProvisioningStyle = Automatic;
+					};
+					6CB05B6F1DE320AF008B917F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CB05B5B1DE320AF008B917F;
+					};
+					6CB05B7A1DE320AF008B917F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CB05B5B1DE320AF008B917F;
+					};
+				};
+			};
+			buildConfigurationList = 6CB05B571DE320AF008B917F /* Build configuration list for PBXProject "Authentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CB05B531DE320AF008B917F;
+			productRefGroup = 6CB05B5D1DE320AF008B917F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB05B5B1DE320AF008B917F /* Authentication */,
+				6CB05B6F1DE320AF008B917F /* AuthenticationTests */,
+				6CB05B7A1DE320AF008B917F /* AuthenticationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB05B5A1DE320AF008B917F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB05B671DE320AF008B917F /* Assets.xcassets in Resources */,
+				6C08B86C1E685021003DFB69 /* sap.png in Resources */,
+				6CB05B651DE320AF008B917F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB05B6E1DE320AF008B917F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB05B791DE320AF008B917F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB05B581DE320AF008B917F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6086A81DE83D770082863C /* Authenticator.swift in Sources */,
+				6CB05B621DE320AF008B917F /* ViewController.swift in Sources */,
+				6CB05B601DE320AF008B917F /* AppDelegate.swift in Sources */,
+				6C08B86E1E685165003DFB69 /* StartScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB05B6C1DE320AF008B917F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB05B771DE320AF008B917F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CB05B721DE320AF008B917F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB05B5B1DE320AF008B917F /* Authentication */;
+			targetProxy = 6CB05B711DE320AF008B917F /* PBXContainerItemProxy */;
+		};
+		6CB05B7D1DE320AF008B917F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB05B5B1DE320AF008B917F /* Authentication */;
+			targetProxy = 6CB05B7C1DE320AF008B917F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CB05B631DE320AF008B917F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB05B641DE320AF008B917F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CB05B821DE320AF008B917F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CB05B831DE320AF008B917F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CB05B851DE320AF008B917F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75QSJ8SMAA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks/Release-fat",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Authentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.cp.sdk.ios.sampleapp.Authentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		6CB05B861DE320AF008B917F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75QSJ8SMAA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks/Release-fat",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Authentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.cp.sdk.ios.sampleapp.Authentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		6CB05B881DE320AF008B917F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.AuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authentication.app/Authentication";
+			};
+			name = Debug;
+		};
+		6CB05B891DE320AF008B917F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.AuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Authentication.app/Authentication";
+			};
+			name = Release;
+		};
+		6CB05B8B1DE320AF008B917F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AuthenticationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.AuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Authentication;
+			};
+			name = Debug;
+		};
+		6CB05B8C1DE320AF008B917F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AuthenticationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.AuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Authentication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB05B571DE320AF008B917F /* Build configuration list for PBXProject "Authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB05B821DE320AF008B917F /* Debug */,
+				6CB05B831DE320AF008B917F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB05B841DE320AF008B917F /* Build configuration list for PBXNativeTarget "Authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB05B851DE320AF008B917F /* Debug */,
+				6CB05B861DE320AF008B917F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB05B871DE320AF008B917F /* Build configuration list for PBXNativeTarget "AuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB05B881DE320AF008B917F /* Debug */,
+				6CB05B891DE320AF008B917F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB05B8A1DE320AF008B917F /* Build configuration list for PBXNativeTarget "AuthenticationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB05B8B1DE320AF008B917F /* Debug */,
+				6CB05B8C1DE320AF008B917F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CB05B541DE320AF008B917F /* Project object */;
+}

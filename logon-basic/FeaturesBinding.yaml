@@ -1,18 +1,9 @@
 ---
 - configuration: null
-  id: "a9398215-36c4-4a60-af5f-5b733c3bafdd"
+  id: "d7159dfb-cef2-4d74-86cc-556845a2a4bf"
   name: ""
   featureType:
     id: "Notifications"
-    categoryId: null
-    description: null
-    services: null
-  serviceBindings: null
-- configuration: null
-  id: "20890387-4bc2-4eca-ba9d-166af79f0f0b"
-  name: ""
-  featureType:
-    id: "Integration"
     categoryId: null
     description: null
     services: null
